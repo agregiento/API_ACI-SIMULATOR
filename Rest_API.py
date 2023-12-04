@@ -21,3 +21,4 @@ cabecera2 = {"content-type":"application/json","X-Auth-Token":API_Token}
 respuesta_inventario = requests.get(url2, headers=cabecera2)
 repuesta_inventario_json = respuesta_inventario.json()
 print(repuesta_inventario_json)
+print("hola")
